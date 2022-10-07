@@ -1,0 +1,202 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Monda', sans-serif;
+}
+
+.header-section {
+    height: auto;
+    width: 100%;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 29%, rgba(0, 212, 255, 1) 100%);
+}
+
+.navbar {
+    background-color: #EEE;
+    display: flex;
+    height: 60px;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container {
+    width: auto;
+    height: auto;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 20px;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list-item {
+    margin-left: 15px;
+}
+
+.navbar-link {
+    padding: 10px;
+    font-size: 1.23rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.navbar-link:hover {
+    color: rgba(9, 9, 200, 1);
+    font-size: 1.33rem;
+    transition: all 500ms;
+}
+
+.blog-section {
+    height: auto;
+    width: 100%;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-header {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.article-card {
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-header {
+    font-size: 1.6rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.article-img {
+    border-radius: 30px;
+    width: 80px;
+    margin-right: 1rem;
+}
+
+.article-text {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.soon {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.footer-section {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 29%, rgba(0, 212, 255, 1) 100%);
+    height: auto;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.social-media-container {
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-header {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #EEE;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.social-media-icons {
+    height: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media-buttons i {
+    font-size: 2.3rem;
+    color: #EEEEEE;
+}
+
+.social-media-buttons i:hover {
+    font-size: 2.5rem;
+    margin-top: -0.5rem;
+    transition: all 300ms;
+}
+
+.email-text {
+    color: #EEE;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+address {
+    color: #EEE;
+    font-size: 0.8rem;
+}
+
+.copy-rights {
+    color: #EEEEEE;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 220px;
+}
