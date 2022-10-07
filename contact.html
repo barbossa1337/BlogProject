@@ -9,61 +9,62 @@
     <!-- Title & Favicon -->
     <title>My Blog - Contact</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/a410ce2e31.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <nav>
+<header class="header-section">
+    <nav class="navbar">
         <!--Logo-->
-        <div>
-            <img src="images/BB%20logo.png" alt="Name Logo" height="50">
+        <div class="logo-container">
+            <a href="index.html">
+                <img class="logo" src="images/BB%20logo.png" alt="Name Logo">
+            </a>
         </div>
-        <!--The reason I use the "ul" element is to make it easier to place the elements later with "display - flex".
-         For now, only the element "a" will be enough to put it on the abscissa(x) axis.-->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about-me.html">About Me</a></li>
+        <ul class="navbar-list">
+            <li class="navbar-list-item"><a class="navbar-link" href="index.html">Home</a></li>
+            <li class="navbar-list-item"><a class="navbar-link" href="blog.html">Blog</a></li>
+            <li class="navbar-list-item"><a class="navbar-link" href="contact.html">Contact</a></li>
+            <li class="navbar-list-item"><a class="navbar-link" href="about-me.html">About Me</a></li>
         </ul>
     </nav>
 </header>
-<hr>
-<h1>Contact Me</h1>
-<form action="register.html">
-    <label>Name - Surname : </label>
-    <input type="text" placeholder="Type here..." required>
-    <br>
-    <label>E-mail : </label>
-    <input type="email" placeholder="Type here..." required>
-    <br>
-    <label>Phone : </label>
-    <input type="tel" placeholder="Type here..." required>
-    <br><br>
-    <textarea maxlength="500" cols="50" rows="4" placeholder="Type your message." required></textarea>
-    <br>
-    <i>Character limit <b>500</b></i>
-    <br>
-    <button type="submit">Send</button>
-</form>
-<hr>
-<footer>
-    <h3>
-        <i>To reach me on social media</i>
-    </h3>
-    <div>
-        <a href="https://github.com/" target="_blank"><img src="images/github.png" alt="Github logo" height="50px"></a>
-        <a href="https://stackoverflow.com/" target="_blank"><img src="images/stackoverflow.png" alt="Stackoverflow logo" height="50px"></a>
-        <a href="https://instagram.com" target="_blank"><img src="images/insta.png" alt="Instagram logo" height="50px"></a>
-        <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter logo" height="50px"></a>
+<section class="form-container">
+    <h1 class="form-header">Contact Me</h1>
+    <form class="form-control" action="register.html">
+        <label class="label-control">Name</label>
+        <input class="input-control" type="text" placeholder="Type here..." required>
+        <label class="label-control">Email</label>
+        <input class="input-control" type="email" placeholder="Type here..." required>
+        <label class="label-control">Phone</label>
+        <input class="input-control" type="tel" placeholder="Type here..." required>
+        <textarea class="ta-control" maxlength="500" cols="50" rows="6" placeholder="Type your message." required></textarea>
+        <span class="cl-edit">Character limit <span class="bold cl-edit">500</span></span>
+        <button class="btn" type="submit">Send</button>
+    </form>
+</section>
+<footer class="footer-section">
+    <div class="social-media-container">
+        <h3 class="social-media-header">To reach me on social media</h3>
+        <div class="social-media-icons">
+            <a class="social-media-buttons" href="https://github.com/" target="_blank"><i
+                    class="fa-brands fa-github"></i></a>
+            <a class="social-media-buttons" href="https://stackoverflow.com/" target="_blank"><i
+                    class="fa-brands fa-stack-overflow"></i></a>
+            <a class="social-media-buttons" href="https://instagram.com" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a class="social-media-buttons" href="https://twitter.com" target="_blank"><i
+                    class="fa-brands fa-twitter"></i></a>
+        </div>
     </div>
-    <br>
-    <strong>E-mail : berkbuyukbarbaros@gmail.com</strong>
-    <br><br>
+    <p class="email-text">Email : berkbuyukbarbaros@gmail.com</p>
     <address>
         4134 Street No:4/7 Inonu District - 35660 Menemen / Izmir
     </address>
-    <h5>
-        Rights reserved by Berk Büyükbarbaros.&copy;
+    <h5 class="copy-rights">
+        Rights reserved by Berk Furkan Büyükbarbaros.&copy;
     </h5>
 </footer>
 </body>
