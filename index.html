@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-<header class="main-header">
+<header class="header-section">
     <nav class="navbar">
         <!--Logo-->
         <div class="logo-container">
@@ -35,7 +35,6 @@
         <a class="header-about-me-link" href="about-me.html">Click to learn more about me.</a>
     </article>
 </header>
-<!-- The main section for the home page. -->
 <main class="blog-section">
     <section class="main-first-content">
         <h1 class="main-first-content-header">My Blog</h1>
@@ -88,29 +87,32 @@
                         <br><br>
                         Declarative views make your code more predictable and easier to debug.
                         <a class="blog-text-link" href="blog.html">Click
-                        for
-                        more!</a>
+                            for
+                            more!</a>
                     </p>
                 </div>
             </div>
         </article>
     </section>
 </main>
-<aside class="content-section">
+<section class="content-section">
     <div class="content-container">
         <h2 class="content-main-header">What does a front-end developer do?</h2>
         <h3 class="content-header">Let's take a brief look...</h3>
-        <p class="content-text">A front-end developer builds the front-end portion of websites and web applications—that is, the part
+        <p class="content-text">A front-end developer builds the front-end portion of websites and web applications—that
+            is, the part
             that users actually see and interact with.</p>
         <img class="content-img" src="images/fe.png" alt="Front-end Developer" width="800px">
         <blockquote class="quote">Quoted from Coursera.</blockquote>
         <p class="content-text">
-            A <span class="bold">front-end developer</span> creates websites and applications using web languages such as HTML, CSS,
+            A <span class="bold">front-end developer</span> creates websites and applications using web languages such
+            as HTML, CSS,
             and
             JavaScript that allow users to access and interact with the site or app. When you visit a website, the
             design elements you see were created by a front-end developer.
             <br><br>
-            Contrast this with <span class="bold">back-end developers</span>, who work to develop the behind-the-scenes portions of a
+            Contrast this with <span class="bold">back-end developers</span>, who work to develop the behind-the-scenes
+            portions of a
             website
             or application, like data storage, security, site performance, or other server-side functions.
         </p>
@@ -128,33 +130,37 @@
             you need to both have an eye for detail and a rock-solid understanding of the platform."
         </p>
     </div>
-</aside>
-<section>
-    <h2>Motivation Song of the Day</h2>
-    <i>Avenged Sevenfold - Malagueña Salerosa</i>
-    <br><br>
-    <audio controls>
-        <source src="multimedia/Avenged%20Sevenfold%20-%20Malagueña%20Salerosa.mp3" type="audio/mpeg">
-    </audio>
 </section>
-<section>
-    <h2>Are you ready to learn something new every day?</h2>
-    <h3>Access Tokens</h3>
-    <p>
-        This one is really bad, but is really not that uncommon.
+<aside class="bonus-section">
+    <div class="bonus-container">
+        <h2 class="bonus-header">Motivation Song of the Day</h2>
+        <i class="daily-song">Avenged Sevenfold - Malagueña Salerosa</i>
         <br><br>
-        In JavaScript files, I’ve found the following:
-    <ul>
-        <li>AWS S3 id and secret key giving anyone full control over a S3 bucket</li>
-        <li>Cloudinary credentials giving anyone full control over the bucket</li>
-        <li>A CircleCI token, allowing me to launch builds, view commit history, and more</li>
-        <li>Various other third party API keys</li>
-    </ul>
-    Those are often found in the admin / internal JS files. Developers may think these files won’t be served to
-    regular users so it’s fine to put sensitive information inside, but more often that not, it’s easy to get access
-    to those files.
-    </p>
-</section>
+        <audio class="music-box" controls>
+            <source src="multimedia/Avenged%20Sevenfold%20-%20Malagueña%20Salerosa.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div class="bonus-container">
+        <h2 class="bonus-header">Are you ready to learn something new every day?</h2>
+        <h3 class="bonus-content-header">Access Tokens</h3>
+        <span class="bonus-text">
+            This one is really bad, but is really not that uncommon.
+        </span>
+        <span class="bonus-text">In JavaScript files, I’ve found the following:</span>
+        <ul class="bonus-list">
+            <li><span class="bonus-text">AWS S3 id and secret key giving anyone full control over a S3 bucket</span></li>
+            <li><span class="bonus-text">Cloudinary credentials giving anyone full control over the bucket</span></li>
+            <li><span class="bonus-text">A CircleCI token, allowing me to launch builds, view commit history, and more</span></li>
+            <li><span class="bonus-text">Various other third party API keys</span></li>
+        </ul>
+        <span class="bonus-text">
+            Those are often found in the admin / internal JS files. Developers may think these files won’t be served to
+            regular users so it’s fine to put sensitive information inside, but more often that not, it’s easy to get
+            access
+            to those files.
+        </span>
+    </div>
+</aside>
 <hr>
 <footer>
     <h3>

@@ -16,7 +16,7 @@
     font-family: 'Monda', sans-serif;
 }
 
-.main-header {
+.header-section {
     height: auto;
     width: 100%;
     z-index: 0;
@@ -234,11 +234,54 @@
 
 .quote {
     font-size: 0.8rem;
+    font-style: italic;
     margin-bottom: 1.4rem;
+    color: #EEE;
 }
 
 .bold {
     font-weight: bold;
     border-bottom: 1px solid #EEE;
     color: #EEE;
+}
+
+.bonus-section {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonus-container {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonus-header {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 1.4rem;
+}
+
+.bonus-content-header {
+    margin-bottom: 1.4rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.bonus-text {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.bonus-list {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
 }
