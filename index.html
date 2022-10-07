@@ -21,8 +21,7 @@
                 <img class="logo" src="images/BB%20logo.png" alt="Name Logo">
             </a>
         </div>
-        <!--The reason I use the "ul" element is to make it easier to place the elements later with "display - flex".
-         For now, only the element "a" will be enough to put it on the abscissa(x) axis.-->
+        <!--Navbar-->
         <ul class="navbar-list">
             <li class="navbar-list-item"><a class="navbar-link" href="index.html">Home</a></li>
             <li class="navbar-list-item"><a class="navbar-link" href="blog.html">Blog</a></li>
@@ -30,86 +29,107 @@
             <li class="navbar-list-item"><a class="navbar-link" href="about-me.html">About Me</a></li>
         </ul>
     </nav>
-    <hr>
-    <!-- The background of this article episode will be a different image later. -->
     <article class="header-about-me">
-        <h2 class="header-header">This is my personal web page.</h2>
-        <img class="header-img" src="/images/home.jpg" alt="HTML coding">
+        <h2 class="header-header">Berk Furkan Büyükbarbaros</h2>
+        <img class="header-img" src="/images/pp.png" alt="PP">
         <a class="header-about-me-link" href="about-me.html">Click to learn more about me.</a>
     </article>
 </header>
 <!-- The main section for the home page. -->
-<main>
-    <section>
-        <h1>My Blog</h1>
-        <article>
-            <h2>Javascript</h2>
-            <img src="images/js.png" alt="Javascript" height="150">
-            <p>
-                JavaScript is a scripting or programming language that allows you to implement complex features on
-                web pages — every time a web page does more than just sit there and display static information for
-                you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics,
-                scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third
-                layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in
-                much more detail in other parts of the Learning Area. <a href="blog.html">Click for more!</a>
-            </p>
-            <h2>HTML 5 & CSS 3</h2>
-            <img src="images/html%20-%20css.jpg" alt="HTMl - CSS" height="150">
-            <p>
-                HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies
-                for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for
-                a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web
-                pages and Web Applications. <a href="blog.html">Click for more!</a>
-            </p>
-            <h2>React JS</h2>
-            <img src="images/reactJS.jpg" alt="React" height="150">
-            <p>
-                React makes it painless to create interactive UIs. Design simple views for each state in your
-                application, and React will efficiently update and render just the right components when your data
-                changes.
-                <br><br>
-                Declarative views make your code more predictable and easier to debug. <a href="blog.html">Click for
-                more!</a>
-            </p>
+<main class="blog-section">
+    <section class="main-first-content">
+        <h1 class="main-first-content-header">My Blog</h1>
+        <article class="my-blog">
+            <div class="blog-card">
+                <h2 class="blog-card-header">Javascript</h2>
+                <div class="blog-content">
+                    <img class="blog-img" src="images/js.png" alt="Javascript">
+                    <p class="blog-text">
+                        JavaScript is a scripting or programming language that allows you to implement complex features
+                        on
+                        web pages — every time a web page does more than just sit there and display static information
+                        for
+                        you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics,
+                        scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the
+                        third
+                        layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have
+                        covered in
+                        much more detail in other parts of the Learning Area.
+                        <a class="blog-text-link" href="blog.html">Click for more!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <h2 class="blog-card-header">HTML 5 & CSS 3</h2>
+                <div class="blog-content">
+                    <img class="blog-img" src="images/html%20-%20css.jpg" alt="HTMl - CSS">
+                    <p class="blog-text">
+                        HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core
+                        technologies
+                        for building Web pages. HTML provides the structure of the page, CSS the (visual and aural)
+                        layout,
+                        for
+                        a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building
+                        Web
+                        pages and Web Applications.
+                        <a class="blog-text-link" href="blog.html">Click for more!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <h2 class="blog-card-header">React JS</h2>
+                <div class="blog-content">
+                    <img class="blog-img" src="images/reactJS.jpg" alt="React">
+                    <p class="blog-text">
+                        React makes it painless to create interactive UIs. Design simple views for each state in your
+                        application, and React will efficiently update and render just the right components when your
+                        data
+                        changes.
+                        <br><br>
+                        Declarative views make your code more predictable and easier to debug.
+                        <a class="blog-text-link" href="blog.html">Click
+                        for
+                        more!</a>
+                    </p>
+                </div>
+            </div>
         </article>
     </section>
-    <section>
-        <aside>
-            <h2>What does a front-end developer do?</h2>
-            <h3>Let's take a brief look...</h3>
-            <p>A front-end developer builds the front-end portion of websites and web applications—that is, the part
-                that users actually see and interact with.</p>
-            <img src="images/fe.png" alt="Front-end Developer" width="800px">
-            <br>
-            <blockquote>
-                <q>Quoted from <strong>Coursera</strong>.</q>
-            </blockquote>
-            <p>
-                A <b>front-end developer</b> creates websites and applications using web languages such as HTML, CSS,
-                and
-                JavaScript that allow users to access and interact with the site or app. When you visit a website, the
-                design elements you see were created by a front-end developer.
-                <br><br>
-                Contrast this with <b>back-end developers</b>, who work to develop the behind-the-scenes portions of a
-                website
-                or application, like data storage, security, site performance, or other server-side functions.
-            </p>
-            <p>
-                Front-end developers create the user interface (UI) that determines what each part of a site or
-                application does and how it will look.
-                <br><br>
-                If someone wanted to build a website, for example, they might hire a front-end developer to create the
-                site's layout. The front-end developer determines where to place images, what the navigation should look
-                like, and how to present the site. Much of their work involves ensuring the appearance and layout of the
-                site or application is easy to navigate and intuitive for the user.
-                <br><br>
-                "I've always found crafting polished user interactions that surprise and delight users to be the most
-                rewarding and engaging task," says Mari Batilando, a software engineer at Meta. "In order to do this,
-                you need to both have an eye for detail and a rock-solid understanding of the platform."
-            </p>
-        </aside>
-    </section>
 </main>
+<section>
+    <h2>What does a front-end developer do?</h2>
+    <h3>Let's take a brief look...</h3>
+    <p>A front-end developer builds the front-end portion of websites and web applications—that is, the part
+        that users actually see and interact with.</p>
+    <img src="images/fe.png" alt="Front-end Developer" width="800px">
+    <br>
+    <blockquote>
+        <q>Quoted from <strong>Coursera</strong>.</q>
+    </blockquote>
+    <p>
+        A <b>front-end developer</b> creates websites and applications using web languages such as HTML, CSS,
+        and
+        JavaScript that allow users to access and interact with the site or app. When you visit a website, the
+        design elements you see were created by a front-end developer.
+        <br><br>
+        Contrast this with <b>back-end developers</b>, who work to develop the behind-the-scenes portions of a
+        website
+        or application, like data storage, security, site performance, or other server-side functions.
+    </p>
+    <p>
+        Front-end developers create the user interface (UI) that determines what each part of a site or
+        application does and how it will look.
+        <br><br>
+        If someone wanted to build a website, for example, they might hire a front-end developer to create the
+        site's layout. The front-end developer determines where to place images, what the navigation should look
+        like, and how to present the site. Much of their work involves ensuring the appearance and layout of the
+        site or application is easy to navigate and intuitive for the user.
+        <br><br>
+        "I've always found crafting polished user interactions that surprise and delight users to be the most
+        rewarding and engaging task," says Mari Batilando, a software engineer at Meta. "In order to do this,
+        you need to both have an eye for detail and a rock-solid understanding of the platform."
+    </p>
+</section>
 <section>
     <h2>Motivation Song of the Day</h2>
     <i>Avenged Sevenfold - Malagueña Salerosa</i>
