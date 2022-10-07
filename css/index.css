@@ -125,6 +125,7 @@
 
 .main-first-content-header {
     font-size: 2rem;
+    font-family: 'Merriweather Sans', sans-serif;
     margin-top: 1.3rem;
     margin-bottom: 1.5rem;
 }
@@ -151,6 +152,7 @@
 
 .blog-card-header {
     font-size: 1.5rem;
+    font-family: 'Merriweather Sans', sans-serif;
     margin-bottom: 1.3rem;
 }
 
@@ -186,4 +188,57 @@
     color: rgba(9, 9, 200, 1);
     transition: all 500ms;
     font-size: 1.2rem;
+}
+
+.content-section {
+    width: 100%;
+    height: auto;
+    margin-top: 2.5rem;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 29%, rgba(0, 212, 255, 1) 100%);
+}
+
+.content-container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.content-main-header {
+    margin-top: 2rem;
+    color: #EEE;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.content-header {
+    font-size: 1.3rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #EEEEEE;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.content-text {
+    color: #EEEEEE;
+    margin-bottom: 1.4rem;
+}
+
+.content-img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.quote {
+    font-size: 0.8rem;
+    margin-bottom: 1.4rem;
+}
+
+.bold {
+    font-weight: bold;
+    border-bottom: 1px solid #EEE;
+    color: #EEE;
 }
