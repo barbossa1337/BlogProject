@@ -13,29 +13,29 @@
     <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-<header>
-    <nav>
+<header class="main-header">
+    <nav class="navbar">
         <!--Logo-->
-        <div>
-            <img src="images/BB%20logo.png" alt="Name Logo" height="50">
+        <div class="logo-container">
+            <a href="index.html">
+                <img class="logo" src="images/BB%20logo.png" alt="Name Logo">
+            </a>
         </div>
         <!--The reason I use the "ul" element is to make it easier to place the elements later with "display - flex".
          For now, only the element "a" will be enough to put it on the abscissa(x) axis.-->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about-me.html">About Me</a></li>
+        <ul class="navbar-list">
+            <li class="navbar-list-item"><a class="navbar-link" href="index.html">Home</a></li>
+            <li class="navbar-list-item"><a class="navbar-link" href="blog.html">Blog</a></li>
+            <li class="navbar-list-item"><a class="navbar-link" href="contact.html">Contact</a></li>
+            <li class="navbar-list-item"><a class="navbar-link" href="about-me.html">About Me</a></li>
         </ul>
     </nav>
     <hr>
     <!-- The background of this article episode will be a different image later. -->
-    <article>
-        <h2>This is my personal web page.</h2>
-        <br>
-        <img src="/images/home.jpg" alt="HTML coding" height="300px">
-        <br>
-        <a href="about-me.html">Click to learn more about me.</a>
+    <article class="header-about-me">
+        <h2 class="header-header">This is my personal web page.</h2>
+        <img class="header-img" src="/images/home.jpg" alt="HTML coding">
+        <a class="header-about-me-link" href="about-me.html">Click to learn more about me.</a>
     </article>
 </header>
 <!-- The main section for the home page. -->

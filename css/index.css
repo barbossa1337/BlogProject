@@ -1,0 +1,106 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Monda', sans-serif;
+}
+
+.main-header {
+    height: auto;
+    width: 100%;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 29%, rgba(0, 212, 255, 1) 100%);
+}
+
+.navbar {
+    background-color: #EEE;
+    display: flex;
+    height: 60px;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container {
+    width: auto;
+    height: auto;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 20px;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list-item {
+    margin-left: 15px;
+}
+
+.navbar-link {
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.navbar-link:hover {
+    color: rgba(9, 9, 200, 1);
+    font-size: 1.33rem;
+    transition: all 500ms;
+}
+
+.header-about-me {
+    height: auto;
+    width: 100%;
+    margin-top: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-header {
+    padding: 10px;
+    color: #EEE;
+}
+
+.header-img {
+    border-radius: 30px;
+    height: 300px;
+    margin-top: 1.2rem;
+}
+
+.header-about-me-link {
+    font-size: 1.2rem;
+    color: #EEE;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid #EEE;
+}
+
+.header-about-me-link:hover {
+    font-size: 1.3rem;
+    transition: all 500ms;
+}
