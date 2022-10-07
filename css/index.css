@@ -62,7 +62,7 @@
 
 .navbar-link {
     padding: 10px;
-    font-size: 1.3rem;
+    font-size: 1.23rem;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
@@ -75,7 +75,7 @@
 .header-about-me {
     height: auto;
     width: 100%;
-    margin-top: 1.1rem;
+    margin-top: 2.1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +97,7 @@
     font-size: 1.2rem;
     color: #EEE;
     margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 5.2rem;
     border-bottom: 1px solid #EEE;
 }
 
@@ -109,6 +109,7 @@
 .blog-section {
     height: auto;
     width: 100%;
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,7 +128,7 @@
 .main-first-content-header {
     font-size: 2rem;
     font-family: 'Merriweather Sans', sans-serif;
-    margin-top: 1.3rem;
+    margin-top: 5.3rem;
     margin-bottom: 1.5rem;
 }
 
@@ -195,6 +196,7 @@
     width: 100%;
     height: auto;
     margin-top: 2.5rem;
+    padding-bottom: 3rem;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 29%, rgba(0, 212, 255, 1) 100%);
 }
 
@@ -209,7 +211,7 @@
 }
 
 .content-main-header {
-    margin-top: 2rem;
+    margin-top: 5rem;
     color: #EEE;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 2rem;
@@ -259,6 +261,8 @@
 .bonus-container {
     width: 40%;
     height: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -289,7 +293,7 @@
 
 .signature {
     display: block;
-    margin-top: 1rem;
+    margin-top: 3rem;
     cursor: default;
     font-family: 'Splash', cursive;
     font-size: 2.5rem;
@@ -299,6 +303,8 @@
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 29%, rgba(0, 212, 255, 1) 100%);
     height: auto;
     width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -357,5 +363,5 @@ address {
     color: #EEEEEE;
     font-size: 0.7rem;
     position: absolute;
-    top: 140px;
+    top: 220px;
 }
