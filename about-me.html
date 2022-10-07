@@ -7,169 +7,175 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Title & Favicon -->
-    <title>My Blog - About Me</title>
+    <title>My Blog - Contact</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/about-me.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/a410ce2e31.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <nav>
+<header class="header-section">
+    <nav class="navbar">
         <!--Logo-->
-        <div>
-            <img src="images/BB%20logo.png" alt="Name Logo" height="50">
+        <div class="logo-container">
+            <a href="index.html">
+                <img class="logo" src="images/BB%20logo.png" alt="Name Logo">
+            </a>
         </div>
-        <!--The reason I use the "ul" element is to make it easier to place the elements later with "display - flex".
-         For now, only the element "a" will be enough to put it on the abscissa(x) axis.-->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about-me.html">About Me</a></li>
+        <ul class="navbar-list">
+            <li class="navbar-list-item"><a class="navbar-link" href="index.html">Home</a></li>
+            <li class="navbar-list-item"><a class="navbar-link" href="blog.html">Blog</a></li>
+            <li class="navbar-list-item"><a class="navbar-link" href="contact.html">Contact</a></li>
+            <li class="navbar-list-item"><a class="navbar-link" href="about-me.html">About Me</a></li>
         </ul>
     </nav>
 </header>
-<hr>
-<main>
-    <h1>My Resume</h1>
-    <article>
-        <h2>Berk Furkan Büyükbarbaros</h2>
-        <i>Izmir, Turkey</i>
-        <br><br>
-        <img src="images/email.webp" alt="Email logo" width="30">
-        <span>berkbuyukbarbaros@gmail.com</span>
-        <br>
-        <img src="images/linkedin.png" alt="LinkedIn Logo" width="30">
-        <span><a href="https://www.linkedin.com/in/berk-b%C3%BCy%C3%BCkbarbaros-520405169/">LinkedIn Profile</a></span>
-        <br>
-        <img src="images/phone.png" alt="Phone Logo" width="30">
-        <span>+905323892393</span>
+<main class="resume-container">
+    <h1 class="resume-header">Resume</h1>
+    <article class="personal-info">
+        <h2 class="name">Berk Furkan Büyükbarbaros</h2>
+        <span class="personal-city">Izmir, Turkey</span>
+        <div class="personal-card">
+            <i class="fa-solid fa-envelope icon-control"></i>
+            <span class="personal-text">berkbuyukbarbaros@gmail.com</span>
+        </div>
+        <div class="personal-card">
+            <i class="fa-brands fa-linkedin icon-control"></i>
+            <span class="personal-text"><a class="personal-link" href="https://www.linkedin.com/in/berk-b%C3%BCy%C3%BCkbarbaros-520405169/">LinkedIn Profile</a></span>
+        </div>
+        <div class="personal-card">
+            <i class="fa-solid fa-phone icon-control"></i>
+            <span class="personal-text">+905323892393</span>
+        </div>
     </article>
-    <section>
-        <h2>Summary</h2>
-        <p>
+    <section class="summary-section">
+        <h2 class="summary-header">Summary</h2>
+        <p class="summary-text">
             I am an active Sales Manager at an American English school.
+            <br>
             I have previous experience in marketing and sales in Turkish, Russian and English.
         </p>
     </section>
-    <section>
-        <h2>Experience</h2>
-        <ul>
-            <li>
-                <h3>Novakid Inc</h3>
-                <p>Sales Manager</p>
-                <p>Sep 2021 - Present (1 year 1 month +)</p>
-                <p>Written and verbal communication with customers.</p>
-            </li>
-            <li>
-                <h3>Vestel</h3>
-                <p>Marketing Specialist</p>
-                <p>Mar 2017 - Jun 2018 (1 year 4 months)</p>
-                <p>Hot selling + Active marketing</p>
-            </li>
-            <li>
-                <h3>Vatan Computer</h3>
-                <p>Sales Manager</p>
-                <p>Jul 2014 - Feb 2017 (2 years 8 months)</p>
-                <p>Hot Sale / My reason for leaving the job is to work in a different company with better conditions</p>
-            </li>
-        </ul>
+    <section class="experience-section">
+        <h2 class="experience-header">Experience</h2>
+        <div class="experience-group">
+            <div class="experience-group-item">
+                <h3 class="subheader">Novakid Inc</h3>
+                <span class="experience-text">Sales Manager</span>
+                <span class="experience-text">Sep 2021 - Present (1 year 1 month +)</span>
+                <span class="experience-text">Written and verbal communication</span>
+            </div>
+            <div class="experience-group-item">
+                <h3 class="subheader">Vestel</h3>
+                <span class="experience-text">Marketing Specialist</span>
+                <span class="experience-text">Mar 2017 - Jun 2018 (1 year 4 months)</span>
+                <span class="experience-text">Hot selling + Active marketing</span>
+            </div>
+            <div class="experience-group-item">
+                <h3 class="subheader">Vatan Computer</h3>
+                <span class="experience-text">Sales Manager</span>
+                <span class="experience-text">Jul 2014 - Feb 2017 (2 years 8 months)</span>
+                <span class="experience-text">Hot Sale</span>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <h3>Minsk State Linguistic University</h3>
-                <p>Master's degree</p>
-                <p>Russian Language and Literature</p>
-                <p>2018 - 2019</p>
-            </li>
-            <li>
-                <h3>Eskisehir Anadolu University</h3>
-                <p>Bachelor's degree</p>
-                <p>Faculty of Political Sciences</p>
-                <p>International Relations and Affairs</p>
-            </li>
-        </ul>
+    <section class="edu-section">
+        <h2 class="edu-header">Education</h2>
+        <div class="edu-group">
+            <div class="edu-group-item">
+                <h3 class="subheader">Minsk State Linguistic University</h3>
+                <span class="edu-text">Master's degree</span>
+                <span class="edu-text">Russian Language and Literature</span>
+                <span class="edu-text">2018 - 2019</span>
+            </div>
+            <div class="edu-group-item">
+                <h3 class="subheader">Eskisehir Anadolu University</h3>
+                <span class="edu-text">Bachelor's degree</span>
+                <span class="edu-text">Faculty of Political Sciences</span>
+                <span class="edu-text">International Relations and Affairs</span>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Licenses & Certifications</h2>
-        <ul>
-            <li>
-                <h3>English (B2)</h3>
-                <p>ODTU Foreign Language Education Center</p>
-            </li>
-            <li>
-                <h3>Русский Язык</h3>
-                <p>Minsk State Linguistic University</p>
-            </li>
-            <li>
-                <h3>Programming in HTML5 and CSS3</h3>
-                <p>Udemy</p>
-                <p>UC-4768e856-14f3-4a15-8c15-09bc48ed4ce9</p>
-            </li>
-            <li>
-                <h3>Programming in HTML5 with JavaScript and CSS3</h3>
-                <p>Udemy</p>
-                <p>UC-a1ae5f4b-84c9-4eea-8ce6-db605bdc5e4d</p>
-            </li>
-            <li>
-                <h3>React.js</h3>
-                <p>Udemy</p>
-                <p>UC-f2535f5d-7271-4196-a1c3-7ed7d7ebe416</p>
-            </li>
-            <li>
-                <h3>Introduction to Front-End Development</h3>
-                <p>Meta</p>
-                <p>DDGN6P3HT673</p>
-            </li>
-            <li>
-                <h3>Programming with JavaScript</h3>
-                <p>Meta</p>
-                <p>EY3N3UNCBNSF</p>
-            </li>
-            <li>
-                <h3>Version Control</h3>
-                <p>Meta</p>
-                <p>9WFUQA26JLT4</p>
-            </li>
-        </ul>
+    <section class="cert-section">
+        <h2 class="cert-header">Licenses & Certifications</h2>
+        <div class="cert-group">
+            <div class="cert-group-item">
+                <h3 class="subheader">English (B2)</h3>
+                <p class="cert-text">ODTU Foreign Language Education Center</p>
+            </div>
+            <div class="cert-group-item">
+                <h3 class="subheader">Русский Язык</h3>
+                <p class="cert-text">Minsk State Linguistic University</p>
+            </div>
+            <div class="cert-group-item">
+                <h3 class="subheader">Programming in HTML5 and CSS3</h3>
+                <p class="cert-text">Udemy</p>
+                <p class="cert-text">UC-4768e856-14f3-4a15-8c15-09bc48ed4ce9</p>
+            </div>
+            <div class="cert-group-item">
+                <h3 class="subheader">Programming in HTML5 with JavaScript and CSS3</h3>
+                <p class="cert-text">Udemy</p>
+                <p class="cert-text">UC-a1ae5f4b-84c9-4eea-8ce6-db605bdc5e4d</p>
+            </div>
+            <div class="cert-group-item">
+                <h3 class="subheader">React.js</h3>
+                <p class="cert-text">Udemy</p>
+                <p class="cert-text">UC-f2535f5d-7271-4196-a1c3-7ed7d7ebe416</p>
+            </div>
+            <div class="cert-group-item">
+                <h3 class="subheader">Introduction to Front-End Development</h3>
+                <p class="cert-text">Meta</p>
+                <p class="cert-text">DDGN6P3HT673</p>
+            </div>
+            <div class="cert-group-item">
+                <h3 class="subheader">Programming with JavaScript</h3>
+                <p class="cert-text">Meta</p>
+                <p class="cert-text">EY3N3UNCBNSF</p>
+            </div>
+            <div class="cert-group-item">
+                <h3 class="subheader">Version Control</h3>
+                <p class="cert-text">Meta</p>
+                <p class="cert-text">9WFUQA26JLT4</p>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>Cascading Style Sheets (CSS)</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>Microsoft Office</li>
-            <li>Marketing</li>
-            <li>Sales</li>
-            <li>Business Strategy</li>
-            <li>Problem Solving</li>
-            <li>Leadership</li>
+    <section class="skills-section">
+        <h2 class="skills-header">Skills</h2>
+        <ul class="skills-list">
+            <li class="skills-list-item">HTML5</li>
+            <li class="skills-list-item">Cascading Style Sheets (CSS)</li>
+            <li class="skills-list-item">JavaScript</li>
+            <li class="skills-list-item">PHP</li>
+            <li class="skills-list-item">Microsoft Office</li>
+            <li class="skills-list-item">Marketing</li>
+            <li class="skills-list-item">Sales</li>
+            <li class="skills-list-item">Business Strategy</li>
+            <li class="skills-list-item">Problem Solving</li>
+            <li class="skills-list-item">Leadership</li>
         </ul>
     </section>
 </main>
-<hr>
-<footer>
-    <h3>
-        <i>To reach me on social media</i>
-    </h3>
-    <div>
-        <a href="https://github.com/" target="_blank"><img src="images/github.png" alt="Github logo" height="50px"></a>
-        <a href="https://stackoverflow.com/" target="_blank"><img src="images/stackoverflow.png"
-                                                                  alt="Stackoverflow logo" height="50px"></a>
-        <a href="https://instagram.com" target="_blank"><img src="images/insta.png" alt="Instagram logo" height="50px"></a>
-        <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter logo"
-                                                           height="50px"></a>
+<footer class="footer-section">
+    <div class="social-media-container">
+        <h3 class="social-media-header">To reach me on social media</h3>
+        <div class="social-media-icons">
+            <a class="social-media-buttons" href="https://github.com/" target="_blank"><i
+                    class="fa-brands fa-github"></i></a>
+            <a class="social-media-buttons" href="https://stackoverflow.com/" target="_blank"><i
+                    class="fa-brands fa-stack-overflow"></i></a>
+            <a class="social-media-buttons" href="https://instagram.com" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a class="social-media-buttons" href="https://twitter.com" target="_blank"><i
+                    class="fa-brands fa-twitter"></i></a>
+        </div>
     </div>
-    <br>
-    <strong>E-mail : berkbuyukbarbaros@gmail.com</strong>
-    <br><br>
+    <p class="email-text">Email : berkbuyukbarbaros@gmail.com</p>
     <address>
         4134 Street No:4/7 Inonu District - 35660 Menemen / Izmir
     </address>
-    <h5>
-        Rights reserved by Berk Büyükbarbaros.&copy;
+    <h5 class="copy-rights">
+        Rights reserved by Berk Furkan Büyükbarbaros.&copy;
     </h5>
 </footer>
 </body>
