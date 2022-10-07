@@ -285,3 +285,61 @@
     display: flex;
     flex-direction: column;
 }
+
+.footer-section {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 29%, rgba(0, 212, 255, 1) 100%);
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.social-media-container {
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-header {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #EEE;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.social-media-icons {
+    height: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media-buttons i {
+    font-size: 2.3rem;
+    color: #EEEEEE;
+}
+
+.email-text {
+    color: #EEE;
+    margin-top: 1rem;
+}
+
+address {
+    color: #EEE;
+    font-size: 0.8rem;
+}
+
+.copy-rights {
+    color: #EEEEEE;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 140px;
+}
